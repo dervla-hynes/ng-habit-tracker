@@ -5,42 +5,39 @@ div {
 
     .main-content {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-evenly;
         text-align: center;
         margin-top: 20px;
 
-        .habits{
+        .headings{
             display: flex;
-            flex-direction: column;
-            border: 2px solid yellow;
+            flex-direction: row;
+            justify-content: space-around;
+            height: 10%;
 
             h2 {
-                height: 10%;
+                color: #0B032D;
+                width: 20%;
             }
-
-            p {
-                border: 2px solid yellow;
-                height: 90%;
-            }
-        }
-
-        .weekdays {
-            display: flex;
-            flex-direction: column;
-            border: 2px solid yellow;
 
             ul {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
-                border: 2px solid yellow;
-                height: 10%;
+                width: 80%
             }
+        }
 
-            p {
-                border: 2px solid yellow;
-                height: 90%;
+        .habits {
+            display: flex;
+            flex-direction: column;
+            height: 90%;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
             }
         }
     }

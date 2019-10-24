@@ -1,0 +1,25 @@
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin: 10px 30px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #FFB997;
+    }
+
+    .text {
+        width: 20%;
+    }
+
+    .checkbox {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

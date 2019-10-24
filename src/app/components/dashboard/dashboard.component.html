@@ -2,12 +2,8 @@
     <app-navbar></app-navbar>
     <div class="main-content">
 
-        <div class="habits">
+        <div class="headings">
             <h2>my habits</h2>
-            <p>Habits will go here</p>
-        </div>
-
-        <div class="weekdays">
             <ul>
                 <app-weekday text="monday"></app-weekday>
                 <app-weekday text="tuesday"></app-weekday>
@@ -17,7 +13,14 @@
                 <app-weekday text="saturday"></app-weekday>
                 <app-weekday text="sunday"></app-weekday>
             </ul>
-            <p>checkbox will go here</p>
+        </div>
+
+        <div class="habits">
+            <ul>
+                <app-habit-item text="go for a run"></app-habit-item>
+                <app-habit-item text="drink 8 glasses of water"></app-habit-item>
+                <app-habit-item text="walk the dog"></app-habit-item>
+            </ul>
         </div>
  
     </div>
