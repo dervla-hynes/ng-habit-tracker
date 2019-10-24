@@ -14,6 +14,8 @@ import { AddHabitButtonComponent } from './components/add-habit-button/add-habit
 import { WeekdayComponent } from './components/weekday/weekday.component';
 import { HabitItemComponent } from './components/habit-item/habit-item.component';
 import { CheckboxComponent } from './components/checkbox/checkbox.component';
+import { HistoryComponent } from './components/history/history.component';
+import { HistoryButtonComponent } from './components/history-button/history-button.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { CheckboxComponent } from './components/checkbox/checkbox.component';
     AddHabitButtonComponent,
     WeekdayComponent,
     HabitItemComponent,
-    CheckboxComponent
+    CheckboxComponent,
+    HistoryComponent,
+    HistoryButtonComponent
   ],
   imports: [
     BrowserModule,
