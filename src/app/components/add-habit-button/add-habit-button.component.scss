@@ -3,4 +3,10 @@ h2 {
     color: white;
     padding: 20px;
     border-radius: 40px;
+    font-size: 1.5em;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #F67E7D;
+    }
 }

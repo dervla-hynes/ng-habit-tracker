@@ -11,6 +11,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { EnterButtonComponent } from './components/enter-button/enter-button.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AddHabitButtonComponent } from './components/add-habit-button/add-habit-button.component';
+import { WeekdayComponent } from './components/weekday/weekday.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AddHabitButtonComponent } from './components/add-habit-button/add-habit
     FooterComponent,
     EnterButtonComponent,
     NavbarComponent,
-    AddHabitButtonComponent
+    AddHabitButtonComponent,
+    WeekdayComponent
   ],
   imports: [
     BrowserModule,

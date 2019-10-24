@@ -1,7 +1,25 @@
 <div>
     <app-navbar></app-navbar>
-    <div>
-        <p>dashboard works!</p>
+    <div class="main-content">
+
+        <div class="habits">
+            <h2>my habits</h2>
+            <p>Habits will go here</p>
+        </div>
+
+        <div class="weekdays">
+            <ul>
+                <app-weekday text="monday"></app-weekday>
+                <app-weekday text="tuesday"></app-weekday>
+                <app-weekday text="wednesday"></app-weekday>
+                <app-weekday text="thursday"></app-weekday>
+                <app-weekday text="friday"></app-weekday>
+                <app-weekday text="saturday"></app-weekday>
+                <app-weekday text="sunday"></app-weekday>
+            </ul>
+            <p>checkbox will go here</p>
+        </div>
+ 
     </div>
     <app-footer></app-footer>
 </div>
