@@ -1,6 +1,6 @@
 div {
-    height: 100vh;
-    width: 100vw;
+    // height: 100vh;
+    // width: 100vw;
     background-color: #B49FCC;
 
     .main-content {
@@ -8,7 +8,7 @@ div {
         flex-direction: column;
         justify-content: space-evenly;
         text-align: center;
-        margin-top: 50px;
+        margin: 50px;
 
         .headings{
             display: flex;
@@ -25,6 +25,7 @@ div {
                 flex-direction: row;
                 justify-content: space-around;
                 width: 80%;
+                margin: 0px 40px;
             }
         }
 
