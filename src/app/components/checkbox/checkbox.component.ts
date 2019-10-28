@@ -7,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CheckboxComponent implements OnInit {
 
-  tester() {
-    alert('color changed to pink');
+  isActive:boolean = false;
+
+  makeActive() {
+    return this.isActive = !this.isActive;
   }
 
   constructor() { }
@@ -17,9 +19,3 @@ export class CheckboxComponent implements OnInit {
   }
 
 }
-
-//add event listener on each checkbox to change color onclick
-// // .addEventListener('click', changeToCompleted);
-// const changeToCompleted = () => {
-//   return null;
-// }
