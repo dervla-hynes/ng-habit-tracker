@@ -1,3 +1,5 @@
+@import '../../../variables.scss';
+
 li {
     display: flex;
     flex-direction: row;
@@ -9,7 +11,7 @@ li {
     cursor: pointer;
 
     &:hover {
-        background-color: rgb(156, 122, 196);
+        background-color: $highlighted-color;
     }
 
     .text {

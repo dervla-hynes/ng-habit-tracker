@@ -1,13 +1,11 @@
 //colours 
 
-$primary-color: "#6D466B"; //deep purple
-$secondary-color: "#B49FCC"; //lilac purple
-$tertiary-color: "#F67E7D"; //pink
+$primary-color: #6D466B; //deep purple
+$secondary-color: #B49FCC; //lilac purple
+$tertiary-color: #FFB997; //pink
 
-$highlighted-color: "#FFB997";
-$text-color: "rgb(42, 5, 59)";
-// $fourth-color: "#FFB997"; //light pink
-// $fifth-color: see above //dark purple
+$highlighted-color: rgb(156, 122, 196); //on hover purple
+$text-color: rgb(42, 5, 59);
 
 //fonts
 @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');

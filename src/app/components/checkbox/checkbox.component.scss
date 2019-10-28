@@ -1,9 +1,11 @@
+@import '../../../variables.scss';
+
 li {
     list-style: none;
     font-size: 1.5em;
     padding: 0px 50px;
 
     &.active {
-        color: #FFB997;
+        color: $tertiary-color;
     }
 }
