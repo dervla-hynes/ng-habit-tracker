@@ -1,15 +1,17 @@
+@import '../../../variables.scss';
+
 h1 {
-    color: #6D466B;
+    color: $primary-color;
     font-weight: bold;
     font-size: 3em;
-    border: 2px solid #6D466B;
-    background-color: #B49FCC;
+    border: 2px solid $text-color;
+    background-color: $secondary-color;
     border-radius: 50px;
     padding: 20px;
     margin: 0px 5px;
     display: inline;
 
     span {
-        color: #FFB997;
+        color: $tertiary-color;
     }
 }

@@ -1,5 +1,7 @@
+@import '../../../variables.scss';
+
 div {
-    background-color: #6D466B;
+    background-color: $primary-color;;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
