@@ -1,8 +1,10 @@
 <div>
-    <app-header></app-header>
+    <div class="header"></div>
     <div class="logo-container">
         <app-logo></app-logo>
-        <app-enter-button></app-enter-button>
+        <app-button [buttonText]="startButton"></app-button>
     </div>
-    <app-footer></app-footer>
+    <div class="footer">
+        <p>&copy; habit@: The chill habit tracker.</p>
+    </div>
 </div>

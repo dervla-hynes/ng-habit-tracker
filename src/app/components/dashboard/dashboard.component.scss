@@ -26,6 +26,12 @@ div {
                 justify-content: space-around;
                 width: 80%;
                 margin: 0px 40px;
+
+                li {
+                    text-decoration: underline;
+                    list-style: none;
+                    font-size: 1.3em;
+                }
             }
         }
 
@@ -40,5 +46,12 @@ div {
                 justify-content: space-around;
             }
         }
+    }
+
+    .footer {
+        background-color: $primary-color;
+        padding: 50px 0px;
+        color: white;
+        text-align: center;
     }
 }

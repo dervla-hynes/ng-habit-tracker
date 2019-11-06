@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./start-page.component.scss']
 })
 export class StartPageComponent implements OnInit {
+  startButton = "start tracking . . ."
 
   constructor() { }
 

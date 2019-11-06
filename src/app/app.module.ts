@@ -6,16 +6,11 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { StartPageComponent } from './components/start-page/start-page.component';
 import { LogoComponent } from './components/logo/logo.component';
-import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { EnterButtonComponent } from './components/enter-button/enter-button.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { AddHabitButtonComponent } from './components/add-habit-button/add-habit-button.component';
-import { WeekdayComponent } from './components/weekday/weekday.component';
+import { ButtonComponent } from './components/button/button.component';
 import { HabitItemComponent } from './components/habit-item/habit-item.component';
 import { CheckboxComponent } from './components/checkbox/checkbox.component';
-import { HistoryComponent } from './components/history/history.component';
-import { HistoryButtonComponent } from './components/history-button/history-button.component';
+import { HabitListComponent } from './components/habit-list/habit-list.component';
 
 @NgModule({
   declarations: [
@@ -23,16 +18,11 @@ import { HistoryButtonComponent } from './components/history-button/history-butt
     DashboardComponent,
     StartPageComponent,
     LogoComponent,
-    HeaderComponent,
-    FooterComponent,
-    EnterButtonComponent,
     NavbarComponent,
-    AddHabitButtonComponent,
-    WeekdayComponent,
+    ButtonComponent,
     HabitItemComponent,
     CheckboxComponent,
-    HistoryComponent,
-    HistoryButtonComponent
+    HabitListComponent
   ],
   imports: [
     BrowserModule,
