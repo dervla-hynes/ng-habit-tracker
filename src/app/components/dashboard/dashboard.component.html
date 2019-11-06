@@ -5,24 +5,22 @@
         <div class="headings">
             <h2>my habits</h2>
             <ul>
-                <app-weekday text="mon"></app-weekday>
-                <app-weekday text="tue"></app-weekday>
-                <app-weekday text="wed"></app-weekday>
-                <app-weekday text="thu"></app-weekday>
-                <app-weekday text="fri"></app-weekday>
-                <app-weekday text="sat"></app-weekday>
-                <app-weekday text="sun"></app-weekday>
+                <li>mon</li>
+                <li>tue</li>
+                <li>wed</li>
+                <li>thu</li>
+                <li>fri</li>
+                <li>sat</li>
+                <li>sun</li>
             </ul>
         </div>
 
         <div class="habits">
-            <ul>
-                <app-habit-item text="go for a run"></app-habit-item>
-                <app-habit-item text="drink 8 glasses of water"></app-habit-item>
-                <app-habit-item text="walk the dog"></app-habit-item>
-            </ul>
+            <app-habit-list></app-habit-list>
         </div>
  
     </div>
-    <app-footer></app-footer>
+    <div class="footer">
+        <p>&copy; habit@: The chill habit tracker.</p>
+    </div>
 </div>

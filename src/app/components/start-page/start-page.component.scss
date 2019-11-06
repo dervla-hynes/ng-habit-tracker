@@ -4,10 +4,24 @@ div {
     height: 400px;
     background-color: $secondary-color;
 
+    .header {
+        background-color: $primary-color;
+        padding: 50px 0px;
+        height: 50px;
+    }
+
     .logo-container {
        display: flex;
        flex-direction: column;
        justify-content: center;
        align-items: center;
+    }
+
+    .footer {
+        background-color: $primary-color;
+        padding: 50px 0px;
+        color: white;
+        text-align: center;
+        height: 50px;
     }
 }
