@@ -5,13 +5,7 @@
         <div class="headings">
             <h2>my habits</h2>
             <ul>
-                <li>mon</li>
-                <li>tue</li>
-                <li>wed</li>
-                <li>thu</li>
-                <li>fri</li>
-                <li>sat</li>
-                <li>sun</li>
+                <li *ngFor="let day of week">{{ day }}</li>
             </ul>
         </div>
 
