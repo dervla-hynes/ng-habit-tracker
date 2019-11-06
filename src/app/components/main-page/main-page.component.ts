@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-dashboard',
-  templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.scss']
+  selector: 'app-main-page',
+  templateUrl: './main-page.component.html',
+  styleUrls: ['./main-page.component.scss']
 })
-export class DashboardComponent implements OnInit {
+export class MainPageComponent implements OnInit {
   week = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
 
   constructor() { }
